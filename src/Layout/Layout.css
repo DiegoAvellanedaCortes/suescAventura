@@ -1,7 +1,6 @@
 .layout{
     margin: 0;
     padding: 0;
-    height: 2000px;
     width: 100%;
 }
 
@@ -55,4 +54,5 @@ nav > ul li a{
 
 footer{
     background-color: green;
+    height: 200px;
 }

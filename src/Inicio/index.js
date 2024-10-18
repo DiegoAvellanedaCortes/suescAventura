@@ -1,5 +1,6 @@
 import "./inicio.css";
 import fondo from "../img/FondoInicio.png";
+import { BannerClientes } from "../bannerClientes";
 
 function Inicio() {
     return (
@@ -14,9 +15,7 @@ function Inicio() {
                     <a target="_blank" rel="noreferrer" href="https://wa.me/573204543746">Contáctanos</a>
                 </button>
             </div>
-            <div className="contenido-inicio">
-
-            </div>
+            <BannerClientes/>
         </div>
     );
 }

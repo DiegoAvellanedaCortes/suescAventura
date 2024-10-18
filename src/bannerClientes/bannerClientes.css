@@ -1,0 +1,50 @@
+.banner-clientes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.titulo-clientes {
+    width: 382px;
+    height: 69px;
+    background-color: #0487D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    -webkit-box-shadow: 20px 19px 33px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 20px 19px 33px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 20px 19px 33px -9px rgba(0, 0, 0, 0.75);
+}
+
+.titulo-clientes p {
+    font-family: Anton;
+    font-size: 40px;
+    color: white;
+}
+
+.banner {
+    margin-top: 40px;
+    padding: 0 73px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-imagenes {
+    width: 406px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    -webkit-box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.3);
+}
+
+.card-imagenes img {
+    width: 354px;
+}
