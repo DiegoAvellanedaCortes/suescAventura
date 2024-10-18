@@ -1,19 +1,25 @@
 .layout{
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 2000px;
     width: 100%;
 }
 
 .menu{
     display: flex;
+    align-items: center;
+    padding-left: 73px;
+    padding-right: 73px;
+    height: 100px;
+    z-index: 100;
+    position: relative;
 }
 
 nav{
     width: 100%;
-    height: 100px;
-    background-color: red;
     margin: auto;
+    font-size: 22px;
+    margin-left: 500px;
 }
 
 nav > ul {
@@ -26,9 +32,27 @@ nav > ul {
 
 nav > ul li a{
     text-decoration: none;
+    color: white;
 }
 
 .img-navbar{
     width: 80px;
     height: 80px;
+}
+
+.boton-whatsapp{
+    position: fixed;
+    z-index: 100;
+    right: 0;
+    top: 60%;
+}
+
+.boton-whatsapp img{
+    width: 97px;
+    height: 97px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: green;
 }
