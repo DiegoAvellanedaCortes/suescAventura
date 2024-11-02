@@ -43,8 +43,14 @@
     -webkit-box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.3);
     box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
 .card-imagenes img {
     width: 354px;
+    height: 265.5px;
+}
+
+.inactive{
+    display: none;
 }

@@ -154,3 +154,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 >>>>>>> 72445f55ceeadd927ee8bb5c2129f67be00897ae
+
+*.png
+*.jpeg
