@@ -7,10 +7,15 @@ import icoInstagram from "../img/Instagram.png";
 import icoFacebook from "../img/Facebook.png";
 import icoTiktok from "../img/Tiktok.png";
 
+import { TiThMenu } from "react-icons/ti";
+import React from "react";
+
 function Layout() {
 
+    const [menuMovil, setMenuMovil] = React.useState(false);
+
     const redes = [
-        { name_red: "Youtube", logo: icoYoutube, url: "https://www.instagram.com/suescaventura" },
+        { name_red: "Youtube", logo: icoYoutube, url: "https://www.youtube.com/@suescaventura" },
         { name_red: "Instagram", logo: icoInstagram, url: "https://www.instagram.com/suescaventura" },
         { name_red: "Facebook", logo: icoFacebook, url: "https://www.facebook.com/profile.php?id=100063543973730" },
         { name_red: "Tiktok", logo: icoTiktok, url: "https://www.tiktok.com/@suescaventura" },
@@ -36,6 +41,37 @@ function Layout() {
                         </li>
                     </ul>
                 </nav>
+            </div>
+            <div className="movil">
+                <TiThMenu
+                    className="iconMenu"
+                    onClick={
+                        () => {
+                            console.log(status => !status);
+                            setMenuMovil(true);
+                        }
+                    }
+                />
+                {menuMovil &&
+                    <div className="MenuMovil">
+                        <nav className="movilMenu">
+                            <ul>
+                                <li>
+                                    <Link to="/">Inicio</Link>
+                                </li>
+                                <li>
+                                    <Link to="/planes">Planes</Link>
+                                </li>
+                                <li>
+                                    <Link to="/contacto">Contacto</Link>
+                                </li>
+                                <li>
+                                    <Link to="/quienes-somos">Quienes Somos?</Link>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                }
             </div>
             <div className="boton-whatsapp">
                 <a target="_blank" rel="noreferrer" href="https://wa.me/573204543746">

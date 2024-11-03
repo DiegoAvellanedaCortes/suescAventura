@@ -1,0 +1,17 @@
+.clientes_Ins{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    font-family: Anton;
+    font-size: 64px;
+}
+
+h2:hover{
+    cursor: default;
+}

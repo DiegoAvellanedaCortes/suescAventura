@@ -1,6 +1,8 @@
 import "./inicio.css";
 import fondo from "../img/FondoInicio.png";
 import { BannerClientes } from "../bannerClientes";
+import { ClientesInstitucionales } from "../ClientesInstitucionales";
+import { Ubicacion } from "../Ubicacion";
 
 function Inicio() {
     return (
@@ -16,6 +18,8 @@ function Inicio() {
                 </button>
             </div>
             <BannerClientes/>
+            <ClientesInstitucionales/>
+            <Ubicacion/>
         </div>
     );
 }
