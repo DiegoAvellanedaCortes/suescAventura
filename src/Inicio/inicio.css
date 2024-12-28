@@ -18,9 +18,9 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    top: 180px;
-    right: 100px;
+    justify-content: center;    
+    top: 5%;
+    right: 5%;
 }
 
 .boton-inicio p {
@@ -55,4 +55,37 @@
 .contenido-inicio{
     width: 100%;
     background-color: red;
+}
+
+@media ( width <=1145px) {
+    .home{
+        top: 0;
+        margin: auto;
+    }
+
+}
+
+@media ( width <=1075px) {
+    .boton-inicio p {
+        font-size: 30px;
+    }
+
+    .boton-inicio{
+        top: 1%;
+        right: 2%;
+    }
+
+    .boton-contacto{
+        width: 150px;
+        height: 30px;
+        margin: auto;
+        border-radius: 25px;
+        background-color: #0487D9;
+    }
+
+    .boton-contacto a {
+        font-size: 20px;
+    
+    }
+
 }

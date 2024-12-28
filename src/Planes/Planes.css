@@ -1,0 +1,71 @@
+.titulo_planes{
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: -100px;
+}
+
+.titulo_planes img{
+    width: 100%;
+    z-index: -5;
+}
+
+.titulo_planes h2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+    color: white;
+}
+
+p{
+    cursor: pointer;
+}
+
+.planes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 183px;
+    margin-right: 183px;
+    margin-bottom: 5px;
+    position: relative;
+    margin-top: -210px;
+    justify-content: center;
+}
+
+.cardPlanes{
+    width: 344px;
+    height: 410px;
+    margin: 10px;
+    background-color: #F1F1F1;
+    cursor: pointer;
+}
+
+.cardPlanes img{
+    width: 100%;
+    height: 258px;
+}
+
+.tituloPlan{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 200px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 200;
+    margin: auto;
+    margin-top: 10px;
+    height: 76px;
+}
+
+.boton{
+    text-align: end;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0487D9;
+}

@@ -47,32 +47,37 @@ function Layout() {
                     className="iconMenu"
                     onClick={
                         () => {
-                            console.log(status => !status);
-                            setMenuMovil(true);
+                            setMenuMovil(status => !status);
+                            console.log(menuMovil);
                         }
                     }
                 />
-                {menuMovil &&
-                    <div className="MenuMovil">
-                        <nav className="movilMenu">
-                            <ul>
-                                <li>
-                                    <Link to="/">Inicio</Link>
-                                </li>
-                                <li>
-                                    <Link to="/planes">Planes</Link>
-                                </li>
-                                <li>
-                                    <Link to="/contacto">Contacto</Link>
-                                </li>
-                                <li>
-                                    <Link to="/quienes-somos">Quienes Somos?</Link>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                }
             </div>
+            {menuMovil &&
+                <div className="MenuMovil">
+                    <nav className="movilMenu">
+                        <ul onClick={
+                            () => {
+                                setMenuMovil(status => !status);
+                             
+                            }
+                        }>
+                            <li>
+                                <Link to="/">Inicio</Link>
+                            </li>
+                            <li>
+                                <Link to="/planes">Planes</Link>
+                            </li>
+                            <li>
+                                <Link to="/contacto">Contacto</Link>
+                            </li>
+                            <li>
+                                <Link to="/quienes-somos">Quienes Somos?</Link>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            }
             <div className="boton-whatsapp">
                 <a target="_blank" rel="noreferrer" href="https://wa.me/573204543746">
                     <img src={logo_whatsapp} alt="logo WhatsApp" />

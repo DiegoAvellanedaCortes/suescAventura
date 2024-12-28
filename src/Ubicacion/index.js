@@ -1,5 +1,5 @@
 import "./Ubicacion.css";
-import agencia from "../img/Agencia.png";
+import agencia from "../img/Agencia.jpg";
 import mapa from "../img/mapa.png";
 
 function Ubicacion() {
@@ -10,7 +10,7 @@ function Ubicacion() {
             </div>
             <div className="contenido_ubicacion">
                 <div className="mapa">
-                    <p>Encuentra nuestra oficina dando clic <a href="https://maps.app.goo.gl/uVJYqr9AG9XVVXyF8" target="_blank" rel="noreferrer">aquí</a></p>
+                    <p>Nuestra Ubicación <a href="https://maps.app.goo.gl/uVJYqr9AG9XVVXyF8" target="_blank" rel="noreferrer">aquí</a></p>
                     <div className="mapa">
                         <a href="https://maps.app.goo.gl/uVJYqr9AG9XVVXyF8" target="_blank" rel="noreferrer">
                             <img src={mapa} alt="Ubicación agencia" />
@@ -18,6 +18,11 @@ function Ubicacion() {
                     </div>
                 </div>
                 <div className="foto-lugar">
+                    <div className="boton-flotante-Ubi">
+                        <a href="https://maps.app.goo.gl/uVJYqr9AG9XVVXyF8" target="_blank" rel="noreferrer">
+                            Aquí
+                        </a>
+                    </div>
                     <img src={agencia} alt="Fachada agencia" />
                     <strong>Suesca, Cundinamarca</strong>
                 </div>

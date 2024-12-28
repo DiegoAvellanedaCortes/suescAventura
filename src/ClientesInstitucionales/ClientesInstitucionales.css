@@ -15,3 +15,23 @@ h2{
 h2:hover{
     cursor: default;
 }
+
+.clientes_Ins img{
+    width: 100%;
+    max-width: 1000px;
+}
+
+@media ( width <=1145px) { 
+    .clientes_Ins{
+        margin-top: 0px;
+    }
+    
+    .clientes_Ins h2 {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+
+    .clientes_Ins img{
+        width: 80%;
+    }
+}

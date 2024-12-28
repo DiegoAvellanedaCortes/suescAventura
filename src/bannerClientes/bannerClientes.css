@@ -27,11 +27,15 @@
 }
 
 .banner {
+    width: auto;
     margin-top: 40px;
-    padding: 0 73px;
+    padding: 0 -73px;
     display: flex;
     justify-content: space-around;
+    overflow: hidden; 
+    position: relative;
 }
+
 
 .card-imagenes {
     width: 406px;
@@ -44,6 +48,7 @@
     -moz-box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.3);
     box-shadow: 1px 1px 10px 6px rgba(0, 0, 0, 0.3);
     overflow: hidden;
+    margin: 15px;
 }
 
 .card-imagenes img {
@@ -53,4 +58,31 @@
 
 .inactive{
     display: none;
+}
+
+.slick-track{
+    max-width: none;
+    width: auto;
+}
+
+@media ( width <=1145px) { 
+    .banner-clientes {
+        margin-top: -10px;
+    }
+
+    .titulo-clientes {
+        border: none;
+        background-color: white;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .titulo-clientes p {
+        font-size: 40px;
+        color: #0487D9;
+    }
+
+    .banner{
+        margin-top: 0px;
+    }
 }
