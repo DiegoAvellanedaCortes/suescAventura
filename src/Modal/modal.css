@@ -7,22 +7,101 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll;
 }
 
-.modalPlanes h1{
-    color: white;
-}
-
-.contenedor{
+.contenedor {
+    position: absolute;
     display: block;
-    background: white;
     width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 25px;
+    top: 15px;
+    padding: 0;
 }
 
-.contenedor img{
-    height: 500px;
-    width: auto;
+.contenedor img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedorTitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.botonCerrarModal{
+    height: 30px;
+    width: 30px;
+    display: block;
+    fill: white;
+    padding-right: 10px;
+}
+
+.tituloModal {
+    font-family: Anton;
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+    cursor: default;
+}
+
+.descripcion {
+    font-family: roboto;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    flex-wrap: wrap;
+    flex-direction: column;
+    bottom: -120px;
+    padding: 15px;
+}
+
+.boton-contacto-planes{
+    width: 195px;
+    height: 41px;
+    border: none;
+    border-radius: 13px;
+    background-color: #0487D9;
+    margin: 16px auto;
+}
+
+.boton-contacto-planes a {
+    text-decoration: none;
+    color: white;
+    font-family: Anton;
+    font-size: 22px;
+}
+
+@media (width <=1145px) {
+    .contenedor {
+        width: 80%;
+    }
+
+    .tituloModal{
+        width: 100%;
+        padding-left: 0;
+        font-size: 30px;
+    }
+
+    .botonCerrarModal{
+        padding-right: 10px;
+    }
+
+    .descripcion{
+        position: relative;
+        bottom: -5%;
+    }
 }

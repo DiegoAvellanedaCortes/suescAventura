@@ -1,11 +1,11 @@
 import { Outlet, Link } from "react-router-dom";
 import "./Layout.css";
 import logo from "../img/SuescAventura.png";
-import logo_whatsapp from "../img/whatsapp.png";
-import icoYoutube from "../img/Youtube.png";
-import icoInstagram from "../img/Instagram.png";
-import icoFacebook from "../img/Facebook.png";
-import icoTiktok from "../img/Tiktok.png";
+import logo_whatsapp from "../img/whatsapp.svg";
+import icoYoutube from "../img/youtube.svg";
+import icoInstagram from "../img/instagram.svg";
+import icoFacebook from "../img/facebook.svg";
+import icoTiktok from "../img/tiktok.svg";
 
 import { TiThMenu } from "react-icons/ti";
 import React from "react";

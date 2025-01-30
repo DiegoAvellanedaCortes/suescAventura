@@ -1,27 +1,31 @@
-.titulo_planes{
+.titulo_planes {
     height: auto;
     width: 100%;
     position: relative;
-    top: -100px;
+    /*top: -100px;*/
 }
 
-.titulo_planes img{
+.titulo_planes img {
     width: 100%;
     z-index: -5;
 }
 
-.titulo_planes h2{
+.titulo_planes h2 {
     position: absolute;
     margin-top: 200px;
     margin-left: 50px;
     color: white;
 }
 
-p{
+.div_planes{
+    height: 1700px;
+}
+
+p {
     cursor: pointer;
 }
 
-.planes{
+.planes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,11 +33,11 @@ p{
     margin-right: 183px;
     margin-bottom: 5px;
     position: relative;
-    margin-top: -210px;
+    top: -210px;
     justify-content: center;
 }
 
-.cardPlanes{
+.cardPlanes {
     width: 344px;
     height: 410px;
     margin: 10px;
@@ -41,12 +45,12 @@ p{
     cursor: pointer;
 }
 
-.cardPlanes img{
+.cardPlanes img {
     width: 100%;
     height: 258px;
 }
 
-.tituloPlan{
+.tituloPlan {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -60,7 +64,7 @@ p{
     height: 76px;
 }
 
-.boton{
+.boton {
     text-align: end;
     margin-right: 15px;
     margin-top: 10px;
@@ -68,4 +72,29 @@ p{
     font-size: 24px;
     font-weight: 500;
     color: #0487D9;
+}
+
+@media (width <=1145px) {
+    .titulo_planes {
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo_planes h2 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .planes{
+        top: -25px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .div_planes{
+        height: auto;
+    }
+
 }

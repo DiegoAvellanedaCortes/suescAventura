@@ -1,0 +1,42 @@
+.quienes_somos{
+    background-image: url("../img/FondoNosotros.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto_equipo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 370px;
+}
+
+.registro_turismo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.titulo_registro_turismo{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.descripcion_agencia{
+    width: 80%;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
