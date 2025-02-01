@@ -18,7 +18,7 @@ function Modal({ data, setOpenModal }) {
                         }
                     ><SVGDelete /></p>
                 </div>
-                <img src={data.fotoURL} />
+                <img src={data.fotoURL} alt="foto"/>
                 <div className="descripcion">
                     {data.Titulo === "Escalada en Roca" && (
                         <p>

@@ -71,7 +71,7 @@ function Planes() {
                             }
                         }
                     >
-                        <img src={item.fotoURL} />
+                        <img src={item.fotoURL} alt="foto plan"/>
                         <p className="tituloPlan">{item.Titulo}</p>
                         <p
                             className="boton"
