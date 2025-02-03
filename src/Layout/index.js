@@ -15,9 +15,9 @@ function Layout() {
     const [menuMovil, setMenuMovil] = React.useState(false);
 
     const redes = [
-        { name_red: "Youtube", logo: icoYoutube, url: "https://www.youtube.com/@suescaventura" },
         { name_red: "Instagram", logo: icoInstagram, url: "https://www.instagram.com/suescaventura" },
         { name_red: "Facebook", logo: icoFacebook, url: "https://www.facebook.com/profile.php?id=100063543973730" },
+        { name_red: "Youtube", logo: icoYoutube, url: "https://www.youtube.com/@suescaventura" },
         { name_red: "Tiktok", logo: icoTiktok, url: "https://www.tiktok.com/@suescaventura" },
     ]
 

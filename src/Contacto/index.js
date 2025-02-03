@@ -26,9 +26,9 @@ function Contacto() {
             <div className="card-datos-dos">
                 <p>Nuestras Redes</p>
                 <div className="redes-contacto">
-                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/@suescaventura" ><img src={icoYoutube} alt="icono Youtube" /></a>
                     <a target="_blank" rel="noreferrer" href="https://www.instagram.com/suescaventura" ><img src={icoInstagram} alt="icono Instagram" /></a>
                     <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100063543973730" ><img src={icoFacebook} alt="icono Facebook" /></a>
+                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/@suescaventura" ><img src={icoYoutube} alt="icono Youtube" /></a>
                     <a target="_blank" rel="noreferrer" href="https://www.tiktok.com/@suescaventura" ><img src={icoTiktok} alt="icono Tiktok" /></a>
                 </div>
             </div>
