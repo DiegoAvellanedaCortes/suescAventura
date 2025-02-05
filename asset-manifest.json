@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/suescAventura/static/css/main.c5638f93.css",
+    "main.js": "/suescAventura/static/js/main.1c2096b7.js",
+    "static/media/FondoInicio.jpg": "/suescAventura/static/media/FondoInicio.eba11dd186f2452fbdb7.jpg",
+    "static/media/fondoContacto.jpg": "/suescAventura/static/media/fondoContacto.50914a25f063da25e9da.jpg",
+    "static/media/Agencia.jpg": "/suescAventura/static/media/Agencia.7b5741915a47b000069e.jpg",
+    "static/media/FondoNosotros.jpg": "/suescAventura/static/media/FondoNosotros.77f2b84eec10959a7633.jpg",
+    "static/media/FondoPlanes.jpg": "/suescAventura/static/media/FondoPlanes.6dff1e1c3604ff977ccf.jpg",
+    "static/media/Cuarta.png": "/suescAventura/static/media/Cuarta.0245fc074c0ad21556ad.png",
+    "static/media/Clientesinstitucionales.jpg": "/suescAventura/static/media/Clientesinstitucionales.098f12ebc9af5a6f4c29.jpg",
+    "static/media/Caminata.jpg": "/suescAventura/static/media/Caminata.8b186d3674a4d41b565b.jpg",
+    "static/media/Rappel.jpg": "/suescAventura/static/media/Rappel.a5ed70ad7a1381e90c71.jpg",
+    "static/media/Escalada.jpg": "/suescAventura/static/media/Escalada.ec414cd8dd916292c6a3.jpg",
+    "static/media/Equipo.jpg": "/suescAventura/static/media/Equipo.d918776af6ae7838dc39.jpg",
+    "static/media/mapa.jpg": "/suescAventura/static/media/mapa.d86e2693a04d6466aac1.jpg",
+    "static/media/QR.svg": "/suescAventura/static/media/QR.0796fa334403a040c2869d8fe14d1840.svg",
+    "static/media/SuescAventura.svg": "/suescAventura/static/media/SuescAventura.9ad562ecbd9d46ba610232ea2fbbef8d.svg",
+    "static/media/ferrata.jpg": "/suescAventura/static/media/ferrata.94a4efce3a58a64a368c.jpg",
+    "static/media/corporativos.jpg": "/suescAventura/static/media/corporativos.d87d9cb4c8b63377a225.jpg",
+    "static/media/instagram.svg": "/suescAventura/static/media/instagram.c8c848244d40e3629cef9947d03612bf.svg",
+    "static/media/Cueva.jpeg": "/suescAventura/static/media/Cueva.0daece0e45975940dafa.jpeg",
+    "static/media/Cabalgata.jpg": "/suescAventura/static/media/Cabalgata.b36ad4521c696ff1d62b.jpg",
+    "static/media/cursos.jpg": "/suescAventura/static/media/cursos.f299fbdd7f1ecaec0a65.jpg",
+    "static/media/youtube.svg": "/suescAventura/static/media/youtube.d571b9d47aa127c0d708ebbd1003f5e2.svg",
+    "static/media/whatsapp.svg": "/suescAventura/static/media/whatsapp.92a21eff23616546d81bfbfb3a33cae0.svg",
+    "static/media/tiktok.svg": "/suescAventura/static/media/tiktok.ea6ed5adfd9a57f58b612c35cbe36a1c.svg",
+    "static/media/facebook.svg": "/suescAventura/static/media/facebook.b5bf1a96e568144e2b850450cca40db7.svg",
+    "index.html": "/suescAventura/index.html",
+    "static/media/delete.svg": "/suescAventura/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "main.c5638f93.css.map": "/suescAventura/static/css/main.c5638f93.css.map",
+    "main.1c2096b7.js.map": "/suescAventura/static/js/main.1c2096b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5638f93.css",
+    "static/js/main.1c2096b7.js"
+  ]
+}
