@@ -1,5 +1,5 @@
 import "./inicio.css";
-import fondo from "../img/FondoInicio.png";
+import fondo from "../img/FondoInicio.jpg";
 import { BannerClientes } from "../bannerClientes";
 import { ClientesInstitucionales } from "../ClientesInstitucionales";
 import { Ubicacion } from "../Ubicacion";

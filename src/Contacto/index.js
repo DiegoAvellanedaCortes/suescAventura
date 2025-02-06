@@ -1,7 +1,7 @@
 import "./contacto.css"
-import logo from "../img/SuescAventura.png";
-import fondoContacto from "../img/fondoContacto.png"
-import QR from "../img/QR.png";
+import logo from "../img/SuescAventura.svg";
+import fondoContacto from "../img/fondoContacto.jpg"
+import QR from "../img/QR.svg";
 import icoYoutube from "../img/youtube.svg";
 import icoInstagram from "../img/instagram.svg";
 import icoFacebook from "../img/facebook.svg";

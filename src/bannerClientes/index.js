@@ -1,8 +1,8 @@
 import "./bannerClientes.css";
 import Caminata from "../img/Caminata.jpg";
 import Escalada from "../img/Escalada.jpg";
-import Cueva from "../img/Cueva.jpeg";
-import Cuarta from "../img/Cuarta.png";
+import Cueva from "../img/Cueva.jpg";
+import Cuarta from "../img/Cuarta.jpg";
 import React from 'react';
 
 

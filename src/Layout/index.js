@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import "./Layout.css";
-import logo from "../img/SuescAventura.png";
+import logo from "../img/SuescAventura.svg";
 import logo_whatsapp from "../img/whatsapp.svg";
 import icoYoutube from "../img/youtube.svg";
 import icoInstagram from "../img/instagram.svg";

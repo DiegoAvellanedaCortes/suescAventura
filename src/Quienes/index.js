@@ -1,5 +1,5 @@
 import "./quienes.css"
-import Equipo from "../img/Equipo.png"
+import Equipo from "../img/Equipo.jpg"
 
 function Quienes() {
     return (

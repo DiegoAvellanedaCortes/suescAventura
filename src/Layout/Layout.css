@@ -159,7 +159,7 @@ footer{
         align-items: center;
         background-color: #012E40;
         width: 100%;
-        height: auto;
+        height: 90px;
         z-index: 1;
         min-height: 60px
     }
@@ -168,7 +168,7 @@ footer{
         display: block;
         margin-left: 80%;
         color: white;
-        font-size: 40px;
+        font-size: 50px;
     }
 
     footer{

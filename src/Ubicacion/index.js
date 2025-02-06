@@ -1,6 +1,6 @@
 import "./Ubicacion.css";
 import agencia from "../img/Agencia.jpg";
-import mapa from "../img/mapa.png";
+import mapa from "../img/mapa.jpg";
 
 function Ubicacion() {
     return (

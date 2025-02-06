@@ -1,5 +1,5 @@
 import "./ClientesInstitucionales.css"
-import clientes from "../img/Clientesinstitucionales.png"
+import clientes from "../img/Clientesinstitucionales.jpg"
 
 function ClientesInstitucionales () {
     return(
