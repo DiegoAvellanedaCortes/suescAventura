@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/suescAventura/static/css/main.c5638f93.css",
+    "main.css": "/suescAventura/static/css/main.a8be6a2e.css",
     "main.js": "/suescAventura/static/js/main.48e77d1a.js",
     "static/media/FondoInicio.jpg": "/suescAventura/static/media/FondoInicio.eba11dd186f2452fbdb7.jpg",
     "static/media/fondoContacto.jpg": "/suescAventura/static/media/fondoContacto.50914a25f063da25e9da.jpg",
@@ -28,11 +28,11 @@
     "static/media/facebook.svg": "/suescAventura/static/media/facebook.b5bf1a96e568144e2b850450cca40db7.svg",
     "index.html": "/suescAventura/index.html",
     "static/media/delete.svg": "/suescAventura/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
-    "main.c5638f93.css.map": "/suescAventura/static/css/main.c5638f93.css.map",
+    "main.a8be6a2e.css.map": "/suescAventura/static/css/main.a8be6a2e.css.map",
     "main.48e77d1a.js.map": "/suescAventura/static/js/main.48e77d1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5638f93.css",
+    "static/css/main.a8be6a2e.css",
     "static/js/main.48e77d1a.js"
   ]
 }
