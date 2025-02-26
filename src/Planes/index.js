@@ -10,52 +10,87 @@ import corporativosPlanes from "../img/corporativos.jpg";
 import "./Planes.css";
 import React from "react";
 import { Modal } from "../Modal";
+import { FormattedMessage } from "react-intl";
 
 function Planes() {
     const datosPlanes = [
         {
             "fotoURL": escaladaPlanes,
-            "Titulo": "Escalada en Roca",
+            "Titulo":
+                <FormattedMessage
+                    id="planes.escalada_titulo"
+                    defaultMessage="Escalada en Roca"
+                />,
         },
         {
             "fotoURL": rappelPlanes,
-            "Titulo": "Rappel",
+            "Titulo":
+                <FormattedMessage
+                    id="planes.rappel"
+                    defaultMessage="Rappel"
+                />,
         },
         {
             "fotoURL": caminataPlanes,
-            "Titulo": "Caminatas"
+            "Titulo":
+                <FormattedMessage
+                    id="planes.caminatas"
+                    defaultMessage="Caminatas"
+                />,
         },
         {
             "fotoURL": cuevaPlanes,
-            "Titulo": "Travesía en cuevas"
+            "Titulo":
+                <FormattedMessage
+                    id="planes.rappel"
+                    defaultMessage="Travesía en cuevas"
+                />,
         },
         {
             "fotoURL": cabalgataPlanes,
-            "Titulo": "Cabalgata"
+            "Titulo":
+                <FormattedMessage
+                    id="planes.rappel"
+                    defaultMessage="Cabalgata"
+                />,
         },
         {
             "fotoURL": ferrataPlanes,
-            "Titulo": "Ascenso en vía Ferrata",
-            "descripcion": "¡Atrévete a descender al corazón de la aventura con rappel en Suesca, Cundinamarca! Descubre la adrenalina pura mientras desciendes por las imponentes paredes de roca que hacen de Suesca un destino único en Colombia. Esta actividad no solo es emocionante, sino que también te conecta con la naturaleza en su estado más puro. Con vistas espectaculares y la energía incomparable del entorno, cada descenso es una experiencia inolvidable. Imagina sentir el viento en tu rostro mientras conquistas cada metro de descenso, rodeado de un paisaje de ensueño. Al finalizar, te quedarás con una sensación de logro y una sonrisa que te acompañará por mucho tiempo. ¡No esperes más para vivir esta experiencia!  Reserva tu aventura de rappel en Suesca hoy y deja que la emoción te lleve a nuevas alturas (y profundidades). ¡El desafío y la diversión te están esperando! ",
+            "Titulo":
+                <FormattedMessage
+                    id="planes.rappel"
+                    defaultMessage="Ascenso en vía Ferrata"
+                />,
         },
         {
             "fotoURL": cursosPlanes,
-            "Titulo": "Cursos",
-            "descripcion": "¡Atrévete a descender al corazón de la aventura con rappel en Suesca, Cundinamarca! Descubre la adrenalina pura mientras desciendes por las imponentes paredes de roca que hacen de Suesca un destino único en Colombia. Esta actividad no solo es emocionante, sino que también te conecta con la naturaleza en su estado más puro. Con vistas espectaculares y la energía incomparable del entorno, cada descenso es una experiencia inolvidable. Imagina sentir el viento en tu rostro mientras conquistas cada metro de descenso, rodeado de un paisaje de ensueño. Al finalizar, te quedarás con una sensación de logro y una sonrisa que te acompañará por mucho tiempo. ¡No esperes más para vivir esta experiencia!  Reserva tu aventura de rappel en Suesca hoy y deja que la emoción te lleve a nuevas alturas (y profundidades). ¡El desafío y la diversión te están esperando! ",
+            "Titulo":
+                <FormattedMessage
+                    id="planes.rappel"
+                    defaultMessage="Cursos"
+                />,
         },
         {
             "fotoURL": corporativosPlanes,
-            "Titulo": "Eventos Corporativos",
-            "descripcion": "¡Atrévete a descender al corazón de la aventura con rappel en Suesca, Cundinamarca! Descubre la adrenalina pura mientras desciendes por las imponentes paredes de roca que hacen de Suesca un destino único en Colombia. Esta actividad no solo es emocionante, sino que también te conecta con la naturaleza en su estado más puro. Con vistas espectaculares y la energía incomparable del entorno, cada descenso es una experiencia inolvidable. Imagina sentir el viento en tu rostro mientras conquistas cada metro de descenso, rodeado de un paisaje de ensueño. Al finalizar, te quedarás con una sensación de logro y una sonrisa que te acompañará por mucho tiempo. ¡No esperes más para vivir esta experiencia!  Reserva tu aventura de rappel en Suesca hoy y deja que la emoción te lleve a nuevas alturas (y profundidades). ¡El desafío y la diversión te están esperando! ",
+            "Titulo":
+                <FormattedMessage
+                    id="planes.rappel"
+                    defaultMessage="Eventos Corporativos"
+                />,
         }
     ];
 
     const [openModal, setOpenModal] = React.useState(false);
-    const [dataModal, setDataModal]=React.useState("");
+    const [dataModal, setDataModal] = React.useState("");
     return (
         <div className="div_planes">
             <div className="titulo_planes">
-                <h2>Nuestros Planes</h2>
+                <h2>
+                    <FormattedMessage
+                        id="planes.titulo"
+                        defaultMessage="Nuestros Planes"
+                    />
+                </h2>
                 <img src={fondoPlanes} alt="Rocas_Suesca" />
             </div>
             <div
@@ -71,11 +106,16 @@ function Planes() {
                             }
                         }
                     >
-                        <img src={item.fotoURL} alt="foto plan"/>
+                        <img src={item.fotoURL} alt="foto plan" />
                         <p className="tituloPlan">{item.Titulo}</p>
                         <p
                             className="boton"
-                        >Ver más</p>
+                        >
+                            <FormattedMessage
+                                id="planes.vermas"
+                                defaultMessage="Ver más"
+                            />
+                        </p>
 
                     </div>
                 ))}

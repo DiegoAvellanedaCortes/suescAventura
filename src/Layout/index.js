@@ -6,6 +6,8 @@ import icoYoutube from "../img/youtube.svg";
 import icoInstagram from "../img/instagram.svg";
 import icoFacebook from "../img/facebook.svg";
 import icoTiktok from "../img/tiktok.svg";
+import { FormattedMessage } from "react-intl";
+import { IdiomaContext } from "../context/IdiomaContext";
 
 import { TiThMenu } from "react-icons/ti";
 import React from "react";
@@ -19,25 +21,61 @@ function Layout() {
         { name_red: "Facebook", logo: icoFacebook, url: "https://www.facebook.com/profile.php?id=100063543973730" },
         { name_red: "Youtube", logo: icoYoutube, url: "https://www.youtube.com/@suescaventura" },
         { name_red: "Tiktok", logo: icoTiktok, url: "https://www.tiktok.com/@suescaventura" },
-    ]
+    ];
+
+    const lang = React.useContext(IdiomaContext);
 
     return (
+
+
         <div className="layout">
             <div className="menu">
                 <img src={logo} className="img-navbar" alt="Logo SuescAventura" />
                 <nav>
                     <ul>
                         <li>
-                            <Link to="/">Inicio</Link>
+                            <Link to="/">
+                                <FormattedMessage
+                                    id="nav.inicio"
+                                    defaultMessage="Inicio"
+                                />
+                            </Link>
                         </li>
                         <li>
-                            <Link to="/planes">Planes</Link>
+                            <Link to="/planes">
+                                <FormattedMessage
+                                    id="nav.planes"
+                                    defaultMessage="Planes"
+                                />
+                            </Link>
                         </li>
                         <li>
-                            <Link to="/contacto">Contacto</Link>
+                            <Link to="/contacto">
+                                <FormattedMessage
+                                    id="nav.contacto"
+                                    defaultMessage="Contacto"
+                                />
+                            </Link>
                         </li>
                         <li>
-                            <Link to="/quienes-somos">Quienes Somos?</Link>
+                            <Link to="/quienes-somos">
+                                <FormattedMessage
+                                    id="nav.quienes"
+                                    defaultMessage="Quienes Somos?"
+                                />
+                            </Link>
+                        </li>
+                        <li>
+                            <button
+                                onClick={() => {
+                                    lang.establecerLeng("es-CO");
+                                }}
+                            >Es</button>
+                            <button
+                                onClick={() => {
+                                    lang.establecerLeng("en-US");
+                                }}
+                            >En</button>
                         </li>
                     </ul>
                 </nav>
@@ -59,20 +97,52 @@ function Layout() {
                         <ul onClick={
                             () => {
                                 setMenuMovil(status => !status);
-                             
+
                             }
                         }>
                             <li>
-                                <Link to="/">Inicio</Link>
+                                <Link to="/">
+                                    <FormattedMessage
+                                        id="nav.inicio"
+                                        defaultMessage="Inicio"
+                                    />
+                                </Link>
                             </li>
                             <li>
-                                <Link to="/planes">Planes</Link>
+                                <Link to="/planes">
+                                    <FormattedMessage
+                                        id="nav.planes"
+                                        defaultMessage="Planes"
+                                    />
+                                </Link>
                             </li>
                             <li>
-                                <Link to="/contacto">Contacto</Link>
+                                <Link to="/contacto">
+                                    <FormattedMessage
+                                        id="nav.contacto"
+                                        defaultMessage="Contacto"
+                                    />
+                                </Link>
                             </li>
                             <li>
-                                <Link to="/quienes-somos">Quienes Somos?</Link>
+                                <Link to="/quienes-somos">
+                                    <FormattedMessage
+                                        id="nav.quienes"
+                                        defaultMessage="Quienes Somos?"
+                                    />
+                                </Link>
+                            </li>
+                            <li>
+                                <button
+                                    onClick={() => {
+                                        lang.establecerLeng("es-CO");
+                                    }}
+                                >Es</button>
+                                <button
+                                    onClick={() => {
+                                        lang.establecerLeng("en-US");
+                                    }}
+                                >En</button>
                             </li>
                         </ul>
                     </nav>
@@ -103,17 +173,37 @@ function Layout() {
                     </div>
                     <div className="links">
                         <ul>
-                            <li>
-                                <Link to="/">Inicio</Link>
+                        <li>
+                                <Link to="/">
+                                    <FormattedMessage
+                                        id="nav.inicio"
+                                        defaultMessage="Inicio"
+                                    />
+                                </Link>
                             </li>
                             <li>
-                                <Link to="/planes">Planes</Link>
+                                <Link to="/planes">
+                                    <FormattedMessage
+                                        id="nav.planes"
+                                        defaultMessage="Planes"
+                                    />
+                                </Link>
                             </li>
                             <li>
-                                <Link to="/contacto">Contacto</Link>
+                                <Link to="/contacto">
+                                    <FormattedMessage
+                                        id="nav.contacto"
+                                        defaultMessage="Contacto"
+                                    />
+                                </Link>
                             </li>
                             <li>
-                                <Link to="/quienes-somos">Quienes Somos?</Link>
+                                <Link to="/quienes-somos">
+                                    <FormattedMessage
+                                        id="nav.quienes"
+                                        defaultMessage="Quienes Somos?"
+                                    />
+                                </Link>
                             </li>
                         </ul>
                     </div>

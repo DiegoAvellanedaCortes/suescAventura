@@ -7,15 +7,15 @@ import { Quienes } from "../Quienes";
 
 export default function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Inicio />} />
-          <Route path="planes" element={<Planes />} />
-          <Route path="contacto" element={<Contacto />} />
-          <Route path="quienes-somos" element={<Quienes />} />
-        </Route>
-      </Routes>
-    </>
+      <>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Inicio />} />
+            <Route path="planes" element={<Planes />} />
+            <Route path="contacto" element={<Contacto />} />
+            <Route path="quienes-somos" element={<Quienes />} />
+          </Route>
+        </Routes>
+      </> 
   );
 }

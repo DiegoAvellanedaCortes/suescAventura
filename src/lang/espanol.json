@@ -1,0 +1,38 @@
+{
+    "nav.inicio":"Inicio",
+    "nav.planes":"Planes",
+    "nav.contacto":"Contacto",
+    "nav.quienes":"Quienes Somos?",
+
+    "inicio.frase":"¿Estás preparado",
+    "inicio.frase2":"para la ",
+    "inicio.frase3":"aventura?",
+    "inicio.boton":"Contáctanos",
+    "inicio.titulo_clientes":"Nuestros Clientes",
+    "inicio.titulo_clientes_institucionales":"Clientes Institucionales",
+    "inicio.ubicacion":"Nuestra Ubicación",
+    "inicio.ubicacion_aqui":"Nuestra ubicación ",
+    "inicio.ubicacion_aqui_link":"aquí",
+
+    "planes.titulo":"Nuestros Planes",
+    "planes.vermas":"Ver más",
+    "planes.escalada_titulo":"Escalada en Roca",
+    "planes.escalada_descripcion":"¡Vive la emoción de la escalada en roca en Suesca, Cundinamarca!",
+    "planes.escalada_descripcion_completa":"Sumérgete en la aventura y la naturaleza mientras desafías tus límites en uno de los destinos de escalada más icónicos de Colombia.Suesca, con sus majestuosas paredes de roca, es el escenario perfecto para vivir una experiencia única, rodeado de impresionantes paisajes y aire puro.",
+    "planes.escalada_descripcion_completa2":"Tanto si eres principiante como un escalador experimentado, nuestras rutas están diseñadas para todos los niveles.Contarás con equipo de alta calidad y la guía de expertos que te acompañarán en cada paso del camino.Sentirás la adrenalina al alcanzar nuevas alturas y la satisfacción de superar tus propios retos.",
+
+
+
+    "planes.rappel":"Rappel",
+    "planes.rappel_descripcion":"¡Atrévete a descender al corazón de la aventura con rappel en Suesca, Cundinamarca!",
+    "planes.rappel_descripcion_completa":"Descubre la adrenalina pura mientras desciendes por las imponentes paredes de roca que hacen de Suesca un destino único en Colombia. Esta actividad no solo es emocionante, sino que también te conecta con la naturaleza en su estado más puro. Con vistas espectaculares y la energía incomparable del entorno, cada descenso es una experiencia inolvidable.",
+    "planes.rappel_descripcion_completa2":"¡El desafío y la diversión te están esperando!",
+
+
+
+    "planes.caminatas":"Caminatas",
+    "planes.caminatas_descripcion":"Adéntrate en los encantadores paisajes de Suesca",
+    "planes.caminatas_descripcion_completa":"Cada paso te llevará a descubrir la belleza y tranquilidad de este destino único. Nuestras caminatas están diseñadas para conectar tu espíritu aventurero con la naturaleza, mientras recorres senderos rodeados de montañas, formaciones rocosas, río y una flora y fauna inigualables.",
+    "planes.caminatas_descripcion_completa2":"Desde principiantes hasta caminantes experimentados, contamos con rutas adaptadas a todos los niveles."
+
+}

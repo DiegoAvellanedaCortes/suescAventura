@@ -1,0 +1,28 @@
+{
+    "nav.inicio":"Home",
+    "nav.planes":"Activities",
+    "nav.contacto":"Contact",
+    "nav.quienes":"About us",
+
+    "inicio.frase":"¿Are you ready ",
+    "inicio.frase2":"for ",
+    "inicio.frase3":"adventure?",
+    "inicio.boton":"Contact us",
+    "inicio.titulo_clientes":"Our customers",
+    "inicio.titulo_clientes_institucionales":"Institutional customers",
+    "inicio.ubicacion":"Location",
+    "inicio.ubicacion_aqui":"Our location ",
+    "inicio.ubicacion_aqui_link":"here",
+
+    "planes.titulo":"Activities",
+    "planes.vermas":"See more",
+    "planes.escalada_titulo":"Rock climbing",
+    "planes.escalada_descripcion":"Experience the thrill of rock climbing Suesca,Cundinamarca!",
+    "planes.escalada_descripcion_completa":"Suesca, with its majestic rock walls, is the perfect setting for a unique experience, surrounded by breathtaking landscapes and fresh air. Whether you're a beginner or an experienced climber, our routes are designed for all skill levels.",
+    "planes.escalada_descripcion_completa2":"You'll have high-quality equipment and the guidance of experts who will support you every step of the way. Feel the adrenaline as you reach new heights and the satisfaction of overcoming your own challenges.",
+
+    "planes.rappel":"Rappel",
+    "planes.rappel_descripcion":"Dare to descend into the heart of adventure with rappelling in Suesca, Cundinamarca!",
+    "planes.rappel_descripcion_completa":"Experience pure adrenaline as you descend the towering rock walls that make Suesca a unique destination in Colombia. This activity is not only thrilling but also connects you with nature in its purest form. With breathtaking views and the unmatched energy of the surroundings, every descent is an unforgettable experience.",
+    "planes.rappel_descripcion_completa2":"The challenge and fun are waiting for you!"
+}
