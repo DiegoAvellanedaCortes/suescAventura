@@ -24,5 +24,43 @@
     "planes.rappel":"Rappel",
     "planes.rappel_descripcion":"Dare to descend into the heart of adventure with rappelling in Suesca, Cundinamarca!",
     "planes.rappel_descripcion_completa":"Experience pure adrenaline as you descend the towering rock walls that make Suesca a unique destination in Colombia. This activity is not only thrilling but also connects you with nature in its purest form. With breathtaking views and the unmatched energy of the surroundings, every descent is an unforgettable experience.",
-    "planes.rappel_descripcion_completa2":"The challenge and fun are waiting for you!"
+    "planes.rappel_descripcion_completa2":"The challenge and fun are waiting for you!",
+
+
+    "planes.caminatas":"Hikes",
+    "planes.caminatas_descripcion":"Immerse Yourself in the Enchanting Landscapes of Suesca",
+    "planes.caminatas_descripcion_completa":"Every step will lead you to discover the beauty and tranquility of this unique destination. Our hikes are designed to connect your adventurous spirit with nature as you explore trails surrounded by mountains, rock formations, a river, and unparalleled flora and fauna.",
+    "planes.caminatas_descripcion_completa2":"From beginners to experienced hikers, we have routes adapted to all skill levels.",
+
+
+    "planes.cuevas":"Cave exploration",
+    "planes.cuevas_descripcion":"Explore the Underground Mystery with a Cave Tour in Suesca, Cundinamarca!",
+    "planes.cuevas_descripcion_completa":"Step into a hidden world full of excitement, adventure, and natural wonders. The cave tours in Suesca offer a unique experience to discover fascinating underground formations, surprising passageways, and the history hidden within these magical caverns.",
+    "planes.cuevas_descripcion_completa2":"Guided by experts, you’ll enjoy a safe and thrilling adventure, perfect for those looking to connect with nature in a different way.",
+
+
+    "planes.cabalgata":"Horse ride",
+    "planes.cabalgata_descripcion":"Discover Suesca on Horseback and Live an Unforgettable Experience!",
+    "planes.cabalgata_descripcion_completa":"Immerse yourself in the beauty of Suesca, Cundinamarca, with our exciting horseback rides. This activity is perfect for those who want to enjoy nature in a relaxing and unique way while riding through trails surrounded by mountains, rivers, and breathtaking views.",
+    "planes.cabalgata_descripcion_completa2":"No matter if you are an experienced rider or if it’s your first time, our horses are trained to provide you with a safe and pleasant experience. Plus, you will be accompanied by expert guides who will share interesting stories and curiosities about the region.",
+
+
+    "planes.ferrata":"Via ferrata ascent",
+    "planes.ferrata_descripcion":"Experience the Thrill of Climbing a Via Ferrata in Suesca, Cundinamarca!",
+    "planes.ferrata_descripcion_completa":"Dare to conquer the heights in one of the most exciting and safest experiences that Suesca has to offer. Via ferrata combines the adrenaline of climbing with the peace of mind of knowing that you have a safety system designed for all types of adventurers, from beginners to experts.",
+    "planes.ferrata_descripcion_completa2":"As you ascend the rock walls, you will enjoy spectacular panoramic views that will make every step worth it.",
+
+
+    "planes.cursos":"Courses",
+    "planes.cursos_descripcion":"Get Ready to Conquer Heights with Our Specialized Courses!",
+    "planes.cursos_descripcion_completa":"If you’re looking to develop unique and challenging skills, our height courses are the perfect option. Designed for both beginners and those who want to refine their techniques, these courses provide the knowledge and confidence to perform safely in elevated environments.",
+    "planes.cursos_descripcion_completa2":"You’ll learn everything from the proper use of personal protective equipment (harnesses, ropes, and anchoring systems) to the best practices for working or moving at heights with complete safety. All this under the guidance of certified instructors who will accompany you step by step, ensuring an educational and exciting experience.",
+
+
+    "planes.corporativos":"Corporate events",
+    "planes.corporativos_descripcion":"Bring the Suesca Experience to Your Team with Our Corporate Services!",
+    "planes.corporativos_descripcion_completa":"At Suescaventura, we know that shared experiences strengthen bonds, inspire creativity, and renew team energy. That’s why we offer a wide range of activities and services designed especially for companies looking to combine adventure, nature, and teamwork.",
+    "planes.corporativos_descripcion_completa2":"Why choose us?",
+    "planes.corporativos_descripcion_completa3":"Proven experience in corporate tourism, Professional guides and high-quality equipment,Customized plans tailored to your objectives and budget"
+
 }

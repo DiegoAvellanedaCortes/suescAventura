@@ -73,55 +73,111 @@ function Modal({ data, setOpenModal }) {
                                 id="planes.caminatas_descripcion_completa2"
                                 defaultMessage="Desde principiantes hasta caminantes experimentados, contamos con rutas adaptadas a todos los niveles."
                             />
-                            
+
                         </p>
                     )}
                     {data.Titulo.props.defaultMessage === "Travesía en cuevas" && (
                         <p>
-                            <strong> ¡Explora el misterio bajo tierra con un recorrido en cuevas en Suesca, Cundinamarca!</strong><br />
+                            <strong>
+                                <FormattedMessage
+                                    id="planes.cuevas_descripcion"
+                                    defaultMessage="¡Explora el misterio bajo tierra con un recorrido en cuevas en Suesca, Cundinamarca!"
+                                />
+                            </strong><br />
+                            <FormattedMessage
+                                id="planes.cuevas_descripcion_completa"
+                                defaultMessage="Adéntrate en un mundo oculto lleno de emoción, aventura y maravillas naturales. Los recorridos por las cuevas de Suesca te ofrecen una experiencia única para descubrir formaciones subterráneas fascinantes, pasadizos sorprendentes y la historia que esconden estas mágicas cavidades."
+                            />
 
-                            Adéntrate en un mundo oculto lleno de emoción, aventura y maravillas naturales. Los recorridos por las cuevas de Suesca te ofrecen una experiencia única para descubrir formaciones subterráneas fascinantes, pasadizos sorprendentes y la historia que esconden estas mágicas cavidades.
-
-                            Guiados por expertos, vivirás una aventura segura y emocionante, ideal para quienes buscan conectar con la naturaleza de una manera diferente.
+                            <br /><br />
+                            <FormattedMessage
+                                id="planes.cuevas_descripcion_completa2"
+                                defaultMessage="Guiados por expertos, vivirás una aventura segura y emocionante, ideal para quienes buscan conectar con la naturaleza de una manera diferente."
+                            />
                         </p>
                     )}
                     {data.Titulo.props.defaultMessage === "Cabalgata" && (
                         <p>
-                            <strong>¡Descubre Suesca a caballo y vive una experiencia inolvidable!</strong><br />
+                            <strong>
+                                <FormattedMessage
+                                    id="planes.cabalgata_descripcion"
+                                    defaultMessage="¡Descubre Suesca a caballo y vive una experiencia inolvidable!"
+                                />
+                            </strong><br />
 
-                            Sumérgete en la belleza de los paisajes de Suesca, Cundinamarca, con nuestras emocionantes cabalgatas. Esta actividad es perfecta para quienes desean disfrutar de la naturaleza de una manera relajante y diferente, mientras recorren senderos rodeados de montañas, ríos y espectaculares vistas.<br />
+                            <FormattedMessage
+                                id="planes.cabalgata_descripcion_completa"
+                                defaultMessage="Sumérgete en la belleza de los paisajes de Suesca, Cundinamarca, con nuestras emocionantes cabalgatas. Esta actividad es perfecta para quienes desean disfrutar de la naturaleza de una manera relajante y diferente, mientras recorren senderos rodeados de montañas, ríos y espectaculares vistas."
+                            />
+                            <br />
 
-                            No importa si eres un jinete experimentado o si es tu primera vez, nuestros caballos están entrenados para ofrecerte una experiencia segura y placentera. Además, contarás con guías expertos que te acompañarán durante el recorrido, compartiendo interesantes historias y curiosidades sobre la región.
+                            <FormattedMessage
+                                id="planes.cabalgata_descripcion_completa2"
+                                defaultMessage="No importa si eres un jinete experimentado o si es tu primera vez, nuestros caballos están entrenados para ofrecerte una experiencia segura y placentera. Además, contarás con guías expertos que te acompañarán durante el recorrido, compartiendo interesantes historias y curiosidades sobre la región."
+                            />
+
                         </p>
                     )}
                     {data.Titulo.props.defaultMessage === "Ascenso en vía Ferrata" && (
                         <p>
-                            <strong>¡Vive la emoción del ascenso en vía ferrata en Suesca, Cundinamarca!</strong><br />
-
-                            Atrévete a conquistar las alturas en una de las experiencias más emocionantes y seguras que Suesca tiene para ofrecer. La vía ferrata combina la adrenalina de la escalada con la tranquilidad de saber que cuentas con un sistema de seguridad diseñado para todo tipo de aventureros, desde principiantes hasta expertos.
-
-                            Mientras asciendes por las paredes rocosas, disfrutarás de vistas panorámicas espectaculares que harán que cada paso valga la pena.
+                            <strong>
+                                <FormattedMessage
+                                    id="planes.ferrata_descripcion"
+                                    defaultMessage="¡Vive la emoción del ascenso en vía ferrata en Suesca, Cundinamarca!"
+                                />
+                            </strong><br />
+                            <FormattedMessage
+                                id="planes.ferrata_descripcion_completa"
+                                defaultMessage="Atrévete a conquistar las alturas en una de las experiencias más emocionantes y seguras que Suesca tiene para ofrecer. La vía ferrata combina la adrenalina de la escalada con la tranquilidad de saber que cuentas con un sistema de seguridad diseñado para todo tipo de aventureros, desde principiantes hasta expertos."
+                            />
+                            <br />
+                            <FormattedMessage
+                                id="planes.ferrata_descripcion_completa2"
+                                defaultMessage="Mientras asciendes por las paredes rocosas, disfrutarás de vistas panorámicas espectaculares que harán que cada paso valga la pena."
+                            />
                         </p>
                     )}
                     {data.Titulo.props.defaultMessage === "Cursos" && (
                         <p>
-                            <strong>¡Prepárate para conquistar las alturas con nuestros cursos especializados!</strong><br />
-
-                            Si buscas desarrollar habilidades únicas y desafiantes, nuestros cursos de alturas son la opción ideal. Diseñados tanto para principiantes como para quienes desean perfeccionar sus técnicas, estos cursos te brindan el conocimiento y la confianza para desempeñarte de manera segura en entornos elevados. <br />
-
-                            Aprenderás desde el uso adecuado del equipo de protección personal (arneses, cuerdas y sistemas de anclaje) hasta las mejores prácticas para trabajar o moverte en altura con total seguridad. Todo esto bajo la guía de instructores certificados que te acompañarán paso a paso, garantizando una experiencia educativa y emocionante.
+                            <strong>
+                                <FormattedMessage
+                                    id="planes.cursos_descripcion"
+                                    defaultMessage="¡Prepárate para conquistar las alturas con nuestros cursos especializados!"
+                                />
+                            </strong><br />
+                            <FormattedMessage
+                                id="planes.cursos_descripcion_completa"
+                                defaultMessage="Si buscas desarrollar habilidades únicas y desafiantes, nuestros cursos de alturas son la opción ideal. Diseñados tanto para principiantes como para quienes desean perfeccionar sus técnicas, estos cursos te brindan el conocimiento y la confianza para desempeñarte de manera segura en entornos elevados."
+                            />
+                            <br />
+                            <FormattedMessage
+                                id="planes.cursos_descripcion_completa2"
+                                defaultMessage="Aprenderás desde el uso adecuado del equipo de protección personal (arneses, cuerdas y sistemas de anclaje) hasta las mejores prácticas para trabajar o moverte en altura con total seguridad. Todo esto bajo la guía de instructores certificados que te acompañarán paso a paso, garantizando una experiencia educativa y emocionante."
+                            />
                         </p>
                     )}
                     {data.Titulo.props.defaultMessage === "Eventos Corporativos" && (
                         <p>
-                            <strong>¡Lleve la experiencia de Suesca a su equipo con nuestros servicios corporativos!</strong><br />
-
-                            En [Nombre de tu Agencia], sabemos que las experiencias compartidas fortalecen los lazos, inspiran creatividad y renuevan la energía de los equipos. Por eso, ofrecemos una amplia gama de actividades y servicios diseñados especialmente para empresas que buscan combinar aventura, naturaleza y trabajo en equipo.<br /><br />
-
-                            ¿Por qué elegirnos?<br /><br />
-
-                            Experiencia comprobada en turismo corporativo, guías profesionales y equipos de alta calidad, planes personalizados que se ajustan a sus objetivos y presupuesto.
-
+                            <strong>
+                                <FormattedMessage
+                                    id="planes.corporativos"
+                                    defaultMessage="¡Lleve la experiencia de Suesca a su equipo con nuestros servicios corporativos!"
+                                />
+                            </strong><br />
+                            <FormattedMessage
+                                id="planes.corporativos_descripcion"
+                                defaultMessage="En Suescaventura, sabemos que las experiencias compartidas fortalecen los lazos, inspiran creatividad y renuevan la energía de los equipos. Por eso, ofrecemos una amplia gama de actividades y servicios diseñados especialmente para empresas que buscan combinar aventura, naturaleza y trabajo en equipo."
+                            />
+                            <br /><br />
+                            <FormattedMessage
+                                id="planes.corporativos_descripcion_completa2"
+                                defaultMessage="¿Por qué elegirnos?"
+                            />
+                            <br /><br />
+                            <FormattedMessage
+                                id="planes.corporativos_descripcion_completa3"
+                                defaultMessage="Experiencia comprobada en turismo corporativo, guías profesionales y equipos de alta calidad, planes personalizados que se ajustan a sus objetivos y presupuesto."
+                            />
                         </p>
                     )}
 

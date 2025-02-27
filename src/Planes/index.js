@@ -42,7 +42,7 @@ function Planes() {
             "fotoURL": cuevaPlanes,
             "Titulo":
                 <FormattedMessage
-                    id="planes.rappel"
+                    id="planes.cuevas"
                     defaultMessage="Travesía en cuevas"
                 />,
         },
@@ -50,7 +50,7 @@ function Planes() {
             "fotoURL": cabalgataPlanes,
             "Titulo":
                 <FormattedMessage
-                    id="planes.rappel"
+                    id="planes.cabalgata"
                     defaultMessage="Cabalgata"
                 />,
         },
@@ -58,7 +58,7 @@ function Planes() {
             "fotoURL": ferrataPlanes,
             "Titulo":
                 <FormattedMessage
-                    id="planes.rappel"
+                    id="planes.ferrata"
                     defaultMessage="Ascenso en vía Ferrata"
                 />,
         },
@@ -66,7 +66,7 @@ function Planes() {
             "fotoURL": cursosPlanes,
             "Titulo":
                 <FormattedMessage
-                    id="planes.rappel"
+                    id="planes.cursos"
                     defaultMessage="Cursos"
                 />,
         },
@@ -74,7 +74,7 @@ function Planes() {
             "fotoURL": corporativosPlanes,
             "Titulo":
                 <FormattedMessage
-                    id="planes.rappel"
+                    id="planes.corporativos"
                     defaultMessage="Eventos Corporativos"
                 />,
         }
