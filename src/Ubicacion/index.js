@@ -37,7 +37,10 @@ function Ubicacion() {
                 <div className="foto-lugar">
                     <div className="boton-flotante-Ubi">
                         <a href="https://maps.app.goo.gl/uVJYqr9AG9XVVXyF8" target="_blank" rel="noreferrer">
-                            Aquí
+                            <FormattedMessage
+                            id="inicio.ubicacion_aqui_link"
+                            defaultMessage="Aquí"
+                            />
                         </a>
                     </div>
                     <img src={agencia} alt="Fachada agencia" />
