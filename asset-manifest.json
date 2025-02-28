@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/suescAventura/static/css/main.18a75f5c.css",
-    "main.js": "/suescAventura/static/js/main.72dd3df5.js",
+    "main.css": "/suescAventura/static/css/main.0c9fd8e7.css",
+    "main.js": "/suescAventura/static/js/main.3c1b156a.js",
     "static/media/FondoInicio.jpg": "/suescAventura/static/media/FondoInicio.eba11dd186f2452fbdb7.jpg",
     "static/media/fondoContacto.jpg": "/suescAventura/static/media/fondoContacto.50914a25f063da25e9da.jpg",
     "static/media/Agencia.jpg": "/suescAventura/static/media/Agencia.7b5741915a47b000069e.jpg",
@@ -30,11 +30,11 @@
     "static/media/facebook.svg": "/suescAventura/static/media/facebook.b5bf1a96e568144e2b850450cca40db7.svg",
     "index.html": "/suescAventura/index.html",
     "static/media/delete.svg": "/suescAventura/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
-    "main.18a75f5c.css.map": "/suescAventura/static/css/main.18a75f5c.css.map",
-    "main.72dd3df5.js.map": "/suescAventura/static/js/main.72dd3df5.js.map"
+    "main.0c9fd8e7.css.map": "/suescAventura/static/css/main.0c9fd8e7.css.map",
+    "main.3c1b156a.js.map": "/suescAventura/static/js/main.3c1b156a.js.map"
   },
   "entrypoints": [
-    "static/css/main.18a75f5c.css",
-    "static/js/main.72dd3df5.js"
+    "static/css/main.0c9fd8e7.css",
+    "static/js/main.3c1b156a.js"
   ]
 }
