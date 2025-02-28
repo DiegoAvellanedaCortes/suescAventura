@@ -63,9 +63,19 @@
     "planes.corporativos_descripcion":"¡Lleve la experiencia de Suesca a su equipo con nuestros servicios corporativos!",
     "planes.corporativos_descripcion_completa":"En Suescaventura, sabemos que las experiencias compartidas fortalecen los lazos, inspiran creatividad y renuevan la energía de los equipos. Por eso, ofrecemos una amplia gama de actividades y servicios diseñados especialmente para empresas que buscan combinar aventura, naturaleza y trabajo en equipo.",
     "planes.corporativos_descripcion_completa2":"¿Por qué elegirnos?",
-    "planes.corporativos_descripcion_completa3":"Experiencia comprobada en turismo corporativo, guías profesionales y equipos de alta calidad, planes personalizados que se ajustan a sus objetivos y presupuesto."
+    "planes.corporativos_descripcion_completa3":"Experiencia comprobada en turismo corporativo, guías profesionales y equipos de alta calidad, planes personalizados que se ajustan a sus objetivos y presupuesto.",
+
+    "contacto.correo":"Correo: ",
+    "contacto.telefono":"Teléfono: (+57) 320 454 3746",
+    "contacto.qr":"Inicia una conversación en WhatsApp escaneando el código QR",
+    "contacto.redes":"Nuestras Redes",
 
 
-
-
+    "quienes.registro":"Registro Nacional de Turismo (RTN) SuescAventura - 65563",
+    "quienes.descripcion_agencia":"Somos operadores turísticos en el municipio de Suesca (Cundinamarca) desde el 2015, legalmente constituidos, nos especializamos en actividades al aire libre, turismo de naturaleza y turismo de aventura con todos los equerimiento de seguridad necesarios para brindar un excelente servicio y así generar una experiencia inolvidable en nuestros visitantes.",
+    "quienes.nuestrosValores":"Nuestros Valores:",
+    "quienes.calidad":"Calidad: Ofrecemos solo lo mejor, cuidando cada detalle para que tu aventura sea perfecta.",
+    "quienes.pasion":"Pasión: Amamos lo que hacemos, y esa pasión se refleja en cada uno de nuestros servicios.",
+    "quienes.compromiso":"Compromiso: Nos comprometemos a brindar un servicio excepcional, siempre poniendo al cliente en el centro de todo.",
+    "quienes.innovacion":"Innovación: Nos mantenemos a la vanguardia, buscando siempre nuevas formas de sorprender y deleitar a nuestros clientes."
 }

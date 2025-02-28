@@ -6,6 +6,8 @@ import icoYoutube from "../img/youtube.svg";
 import icoInstagram from "../img/instagram.svg";
 import icoFacebook from "../img/facebook.svg";
 import icoTiktok from "../img/tiktok.svg";
+import icoSpain from "../img/spain.svg";
+import icoEnglang from "../img/united-kingdom.svg";
 import { FormattedMessage } from "react-intl";
 import { IdiomaContext } from "../context/IdiomaContext";
 
@@ -70,12 +72,16 @@ function Layout() {
                                 onClick={() => {
                                     lang.establecerLeng("es-CO");
                                 }}
-                            >Es</button>
+                            >
+                                <img className="bandera_idioma" src={icoSpain} alt="Idioma Español"/>
+                            </button>
                             <button
                                 onClick={() => {
                                     lang.establecerLeng("en-US");
                                 }}
-                            >En</button>
+                            >
+                                <img className="bandera_idioma" src={icoEnglang} alt="English language"/>
+                            </button>
                         </li>
                     </ul>
                 </nav>
@@ -133,17 +139,21 @@ function Layout() {
                                 </Link>
                             </li>
                             <li>
-                                <button
-                                    onClick={() => {
-                                        lang.establecerLeng("es-CO");
-                                    }}
-                                >Es</button>
-                                <button
-                                    onClick={() => {
-                                        lang.establecerLeng("en-US");
-                                    }}
-                                >En</button>
-                            </li>
+                            <button
+                                onClick={() => {
+                                    lang.establecerLeng("es-CO");
+                                }}
+                            >
+                                <img className="bandera_idioma" src={icoSpain} alt="Idioma Español"/>
+                            </button>
+                            <button
+                                onClick={() => {
+                                    lang.establecerLeng("en-US");
+                                }}
+                            >
+                                <img className="bandera_idioma" src={icoEnglang} alt="English language"/>
+                            </button>
+                        </li>
                         </ul>
                     </nav>
                 </div>
