@@ -1,6 +1,5 @@
 import "./contacto.css"
 import logo from "../img/SuescAventura.svg";
-import fondoContacto from "../img/fondoContacto.jpg"
 import QR from "../img/QR.svg";
 import icoYoutube from "../img/youtube.svg";
 import icoInstagram from "../img/instagram.svg";
@@ -52,7 +51,6 @@ function Contacto() {
                     <a target="_blank" rel="noreferrer" href="https://www.tiktok.com/@suescaventura" ><img src={icoTiktok} alt="icono Tiktok" /></a>
                 </div>
             </div>
-            <img className="fondoContacto" src={fondoContacto} alt="fondo contacto" />
         </div>
     );
 }

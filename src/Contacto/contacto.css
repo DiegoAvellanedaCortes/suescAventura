@@ -5,6 +5,9 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
+    background-image: url("../img/fondoContacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card-datos{
@@ -89,7 +92,7 @@
     .contacto{
         overflow: hidden;
         margin-bottom: 0;
-        padding-bottom: 15px;
+        padding-bottom: 30px;
     }
 
     .img-contacto{
