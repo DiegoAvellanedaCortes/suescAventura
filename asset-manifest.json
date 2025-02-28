@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/suescAventura/static/css/main.a8be6a2e.css",
-    "main.js": "/suescAventura/static/js/main.48e77d1a.js",
+    "main.css": "/suescAventura/static/css/main.18a75f5c.css",
+    "main.js": "/suescAventura/static/js/main.72dd3df5.js",
     "static/media/FondoInicio.jpg": "/suescAventura/static/media/FondoInicio.eba11dd186f2452fbdb7.jpg",
     "static/media/fondoContacto.jpg": "/suescAventura/static/media/fondoContacto.50914a25f063da25e9da.jpg",
     "static/media/Agencia.jpg": "/suescAventura/static/media/Agencia.7b5741915a47b000069e.jpg",
@@ -23,16 +23,18 @@
     "static/media/Cabalgata.jpg": "/suescAventura/static/media/Cabalgata.b36ad4521c696ff1d62b.jpg",
     "static/media/cursos.jpg": "/suescAventura/static/media/cursos.f299fbdd7f1ecaec0a65.jpg",
     "static/media/youtube.svg": "/suescAventura/static/media/youtube.d571b9d47aa127c0d708ebbd1003f5e2.svg",
+    "static/media/spain.svg": "/suescAventura/static/media/spain.f99d229ae3e4f8a325e4c79a10b9ed68.svg",
+    "static/media/united-kingdom.svg": "/suescAventura/static/media/united-kingdom.7aeb25c1d40dd6e9ef0e338496ff1463.svg",
     "static/media/whatsapp.svg": "/suescAventura/static/media/whatsapp.92a21eff23616546d81bfbfb3a33cae0.svg",
     "static/media/tiktok.svg": "/suescAventura/static/media/tiktok.ea6ed5adfd9a57f58b612c35cbe36a1c.svg",
     "static/media/facebook.svg": "/suescAventura/static/media/facebook.b5bf1a96e568144e2b850450cca40db7.svg",
     "index.html": "/suescAventura/index.html",
     "static/media/delete.svg": "/suescAventura/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
-    "main.a8be6a2e.css.map": "/suescAventura/static/css/main.a8be6a2e.css.map",
-    "main.48e77d1a.js.map": "/suescAventura/static/js/main.48e77d1a.js.map"
+    "main.18a75f5c.css.map": "/suescAventura/static/css/main.18a75f5c.css.map",
+    "main.72dd3df5.js.map": "/suescAventura/static/js/main.72dd3df5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8be6a2e.css",
-    "static/js/main.48e77d1a.js"
+    "static/css/main.18a75f5c.css",
+    "static/js/main.72dd3df5.js"
   ]
 }
