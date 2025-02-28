@@ -2,7 +2,7 @@
     "nav.inicio":"Inicio",
     "nav.planes":"Planes",
     "nav.contacto":"Contacto",
-    "nav.quienes":"Quienes Somos?",
+    "nav.quienes":"¿Quienes Somos?",
 
     "inicio.frase":"¿Estás preparado",
     "inicio.frase2":"para la ",
@@ -12,7 +12,7 @@
     "inicio.titulo_clientes_institucionales":"Clientes Institucionales",
     "inicio.ubicacion":"Nuestra Ubicación",
     "inicio.ubicacion_aqui":"Nuestra ubicación ",
-    "inicio.ubicacion_aqui_link":"aquí",
+    "inicio.ubicacion_aqui_link":"Aquí",
 
     "planes.titulo":"Nuestros Planes",
     "planes.vermas":"Ver más",

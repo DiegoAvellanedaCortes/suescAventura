@@ -1,4 +1,3 @@
-import fondoPlanes from "../img/FondoPlanes.jpg";
 import escaladaPlanes from "../img/Escalada.jpg";
 import rappelPlanes from "../img/Rappel.jpg";
 import caminataPlanes from "../img/Caminata.jpg";
@@ -91,7 +90,6 @@ function Planes() {
                         defaultMessage="Nuestros Planes"
                     />
                 </h2>
-                <img src={fondoPlanes} alt="Rocas_Suesca" />
             </div>
             <div
                 className="planes">

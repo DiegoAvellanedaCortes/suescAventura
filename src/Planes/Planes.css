@@ -2,7 +2,6 @@
     height: auto;
     width: 100%;
     position: relative;
-    /*top: -100px;*/
 }
 
 .titulo_planes img {
@@ -11,14 +10,19 @@
 }
 
 .titulo_planes h2 {
-    position: absolute;
-    margin-top: 200px;
+    position: relative;
+    padding-top: 200px;
     margin-left: 50px;
+    text-align: left;
     color: white;
 }
 
 .div_planes{
-    height: 1700px;
+    height: 100%;
+    background-image: url("../img/FondoPlanes.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0%;
 }
 
 p {
@@ -29,11 +33,10 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 100px;
     margin-left: 183px;
     margin-right: 183px;
     margin-bottom: 5px;
-    position: relative;
-    top: -210px;
     justify-content: center;
 }
 
@@ -83,18 +86,24 @@ p {
     }
 
     .titulo_planes h2 {
-        font-size: 30px;
+        font-size: 40px;
         margin-top: 0;
     }
 
     .planes{
-        top: -25px;
         margin-left: 35px;
         margin-right: 35px;
+        margin-top: 5px;
     }
 
     .div_planes{
         height: auto;
     }
 
+}
+
+@media (width <=905px) {
+    .titulo_planes h2 {
+        padding-top: 50px;
+    }
 }
